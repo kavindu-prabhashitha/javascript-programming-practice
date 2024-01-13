@@ -8,7 +8,9 @@ console.log(sum(2,3,5))
 
 function curry(fn){
     return function(a){
+        console.log("Argument 'a' Added ")
         return function(b){
+            console.log("Argument 'b' Added ")
             return function(c){
                 return fn(a, b, c)
             }
