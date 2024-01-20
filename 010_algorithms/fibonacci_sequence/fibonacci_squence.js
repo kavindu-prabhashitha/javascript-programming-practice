@@ -7,6 +7,6 @@ function fibonacci(number){
     return fib
 }
 
-console.log(fibonacci(4))
+console.log(fibonacci(4)) // [ 0, 1, 2, 3 ]
 
 export default fibonacci
