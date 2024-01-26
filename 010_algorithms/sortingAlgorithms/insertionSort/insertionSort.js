@@ -32,6 +32,7 @@ insertionSort(arr)
 console.log(arr)  // [-6, -2, 4, 8, 20]
 
 
+
 // 1st Iteration
 // [-6, 20, 8, -2, 4] 
 // i=0
